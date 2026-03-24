@@ -11,6 +11,28 @@ This file helps you translate what you already do in VS Code into Neovim actions
 	- Visual mode: select text
 - Press Escape to return to Normal mode from anywhere.
 
+## Ubuntu Terminal Editing (Useful Daily Shortcuts)
+
+These work in Ubuntu terminal shells that use Readline (for example Bash).
+
+| What you want to do | Shortcut |
+|---|---|
+| Delete previous word (like your Ctrl+Backspace habit) | `Ctrl+W` |
+| Delete next word | `Alt+D` |
+| Delete from cursor to start of line | `Ctrl+U` |
+| Delete from cursor to end of line | `Ctrl+K` |
+| Move cursor to start of line | `Ctrl+A` |
+| Move cursor to end of line | `Ctrl+E` |
+| Move back one word | `Alt+B` |
+| Move forward one word | `Alt+F` |
+| Paste last deleted text (yank) | `Ctrl+Y` |
+| Clear terminal screen | `Ctrl+L` |
+| Search previous commands | `Ctrl+R` |
+| Stop current running command | `Ctrl+C` |
+| Exit shell (or EOF on empty prompt) | `Ctrl+D` |
+
+Tip: In some terminals, `Alt+...` can be sent as `Esc` then the key (example: `Esc`, then `F`).
+
 ## VS Code to Neovim Table
 
 | Feature | VS Code (What you do) | Neovim (What you do here) |
